@@ -1,0 +1,18 @@
+/*vars*/
+:root {
+/*theme3 */
+}
+/*globals*/
+svg {vertical-align: middle;}
+/*site-header*/
+.site-header {
+width:800px;
+
+}
+.site-header--white {
+  background-color:#fff;
+}
+@media (min-width: 769px) {
+.site-header {width:1200px;
+}
+}

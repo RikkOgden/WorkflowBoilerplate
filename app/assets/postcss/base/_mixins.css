@@ -1,0 +1,37 @@
+@define-mixin maxSmall {
+  @media (max-width: 481px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin maxMedium {
+  @media (max-width: 769px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmall {
+  @media (min-width: 481px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 769px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1079px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &:after {
+    content:"";
+    clear:both;
+    display: table;
+  }
+}

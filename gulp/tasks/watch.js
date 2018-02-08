@@ -22,7 +22,7 @@ gulp.start('cssInject');
 });
 
 
-gulp.task('cssInject', ['buildCss'], function(){
+gulp.task('cssInject', ['build-css'], function(){
   return gulp.src('./app/css/styles.css')
   .pipe(browserSync.stream());
 });
